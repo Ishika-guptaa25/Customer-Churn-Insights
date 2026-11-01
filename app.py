@@ -391,7 +391,7 @@ elif page == "Predict Churn":
             )
 
         st.divider()
-        st.markdown("#### 💳 Billing Details")
+        st.markdown("#### Billing Details")
 
         c1, c2 = st.columns(2)
 
@@ -613,14 +613,14 @@ elif page == "About Project":
         "An AI-powered customer churn prediction and analytics platform."
     )
 
-    st.markdown("### 🎯 Project Objective")
+    st.markdown("### Project Objective")
 
     st.write(
         "The objective is to predict whether a telecom customer "
         "is likely to leave the service using machine learning."
     )
 
-    st.markdown("### 📊 Dataset Information")
+    st.markdown("### Dataset Information")
 
     st.write("""
     - Dataset: IBM Telco Customer Churn
@@ -630,7 +630,7 @@ elif page == "About Project":
     - ML Task: Binary Classification
     """)
 
-    st.markdown("### 🧠 Machine Learning Models")
+    st.markdown("### Machine Learning Models")
 
     st.write("""
     1. Logistic Regression
@@ -638,7 +638,7 @@ elif page == "About Project":
     3. Random Forest
     """)
 
-    st.markdown("### 🛠️ Technology Stack")
+    st.markdown("### Technology Stack")
 
     st.write("""
     - Python
@@ -650,7 +650,7 @@ elif page == "About Project":
     - Joblib
     """)
 
-    st.markdown("### 🚀 Project Workflow")
+    st.markdown("### Project Workflow")
 
     st.write("""
     Data Collection → Data Cleaning → EDA → Preprocessing →
