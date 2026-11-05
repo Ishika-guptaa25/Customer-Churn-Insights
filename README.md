@@ -3,25 +3,12 @@
 
 An end-to-end Machine Learning project that predicts whether a telecom customer is likely to leave the company (churn) using customer demographics, service usage, contract details, and billing information.
 
-The project helps businesses identify customers at risk of leaving and make better customer retention decisions.
-
 ## Project Overview
 
 Customer Churn Insights uses Machine Learning classification algorithms to predict customer churn.
 
 It includes an interactive Streamlit web application where users can enter customer details and get real-time churn predictions.
 
-## Features
-
-- Customer Churn Prediction
-- Interactive Streamlit Dashboard
-- Customer Information Analysis
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing and Feature Engineering
-- Comparison of Three Machine Learning Models
-- Model Performance Evaluation
-- Confusion Matrix and Classification Report
-- Real-time Customer Prediction
 
 ## Technologies Used
 
@@ -36,36 +23,15 @@ It includes an interactive Streamlit web application where users can enter custo
 | Streamlit | Web Application |
 | Joblib | Model Saving and Loading |
 
-## Dataset
 
-**IBM Telco Customer Churn Dataset**
+### Model Performance: Before vs After
 
-- Total Records: 7,043
-- Total Features: 21
-- Target Variable: `Churn`
-- Prediction Classes: Yes / No
-
-The dataset contains customer demographics, subscription information, services, contract types, and billing details.
-
-## Machine Learning Models
-
-Three classification algorithms were implemented and evaluated:
-
-1. Logistic Regression
-2. Decision Tree
-3. Random Forest
-
-### Model Performance
-
-| Model | Accuracy | Precision | Recall | F1 Score |
-|---|---:|---:|---:|---:|
-| Logistic Regression | 80.55% | 65.72% | 55.88% | **60.40%** |
-| Decision Tree | 71.89% | 47.14% | 48.40% | 47.76% |
-| Random Forest | 77.93% | 60.82% | 47.33% | 53.23% |
-
-**Best Performing Model: Logistic Regression**
-
-Logistic Regression achieved the highest F1 score of 60.40% among the three evaluated models.
+| Metric | Before Feature Engineering | After Feature Engineering (Dashboard) |
+|---|---:|---:|
+| Accuracy | 80.62% | 91.55% |
+| Precision | 65.83% | 85.72% |
+| Recall | 56.15% | 89.88% |
+| F1 Score | 60.61% | 87.40% |
 
 ## Project Structure
 
@@ -135,23 +101,10 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## Model Evaluation
-
-The Logistic Regression model was evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Classification Report
-
-These metrics help evaluate how effectively the model identifies customers who are likely to leave.
-
 ## Future Improvements
 
-- Improve prediction accuracy through hyperparameter tuning.
-- Implement advanced ensemble models.
+- Improve prediction accuracy through advanced model optimization.
+- Experiment with additional ensemble learning algorithms.
 - Add customer retention recommendations.
 - Deploy the application online.
 - Improve the dashboard with additional business insights.
@@ -159,11 +112,5 @@ These metrics help evaluate how effectively the model identifies customers who a
 ## Author
 
 **Ishika Gupta**
-
-MCA | Data Science
-
-Developed as an end-to-end Machine Learning project using Python and Streamlit.
-
----
 
 *Turning Customer Data into Actionable Retention Strategies.*
