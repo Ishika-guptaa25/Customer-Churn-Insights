@@ -26,7 +26,7 @@ It includes an interactive Streamlit web application where users can enter custo
 
 ### Model Performance: Before vs After
 
-| Metric | Before Feature Engineering | After Feature Engineering (Dashboard) |
+| Metric | Before Feature Engineering | After Feature Engineering  |
 |---|---:|---:|
 | Accuracy | 80.62% | 91.55% |
 | Precision | 65.83% | 85.72% |
